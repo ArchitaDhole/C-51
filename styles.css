@@ -1,0 +1,52 @@
+.menu {
+    display         : flex;
+    justify-content : space-between;
+    background-color: #000000;
+    padding         : 15px;
+    font-size       : 20px;
+    font-family     : sans-serif;
+    font-weight     : 400;
+    color           : #ffffff;
+    position        : sticky;
+}
+
+body {
+    background-image     : url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQPbwgm5jcCM-yBOUdhJZVotdD9CC_C_5UzNT7TISxy4As1ILX3");
+    background-repeat    : no-repeat;
+    background-attachment: fixed;
+    background-size      : cover;
+}
+
+.imgg {
+    position: relative;
+}
+
+.container {
+    position        : absolute;
+    background-color: #00808040;
+}
+
+
+.grid {
+    display    : flex;
+    flex-wrap  : wrap;
+    margin     : 40px;
+    font-family: sans-serif;
+
+}
+
+.grid img {
+    border       : 2px solid #000000;
+    border-radius: 50px;
+}
+
+.origami {
+
+    border-radius   : 20px;
+    background-color: #ffffff;
+    padding         : 30px;
+    margin          : 25px;
+    width           : 310px;
+    font-family     : fantasy;
+
+}
